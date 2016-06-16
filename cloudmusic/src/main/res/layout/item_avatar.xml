@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/caomei_music"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="72dp">
+
+    <com.carporange.cloudmusic.widget.CircleImageView
+        android:id="@+id/civ_avatar"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:civ_border_color="@color/colorAccent"
+        app:civ_border_width="2dp"
+        android:src="@drawable/avatar_default"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:text="用户名"/>
+
+
+</LinearLayout>

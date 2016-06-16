@@ -1,0 +1,17 @@
+<resources>
+    <attr name="text_color" format="reference|color"/>
+    <attr name="text_sub_color" format="reference|color"/>
+    <attr name="divider_color" format="reference|color"/>
+    <attr name="item_bg" format="reference|color"/>
+    <attr name="bottom_bg" format="reference|color"/>
+    <attr name="src_icon_message" format="reference"/>
+    <attr name="toolbar_color" format="reference|color"/>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolbar_height"
+    android:gravity="center_vertical"
+    android:background="?attr/toolbar_color">
+
+    <ImageView
+        android:layout_width="@dimen/toolbar_height"
+        android:layout_height="match_parent"
+        android:src="@drawable/actionbar_menu"
+        android:scaleType="center"
+        android:layout_alignParentLeft="true"
+        android:clickable="true"
+        android:background="@drawable/background_actionbar_image_selector"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="match_parent"
+            android:background="@drawable/tab_discover"
+            android:button="@null" />
+
+        <RadioButton
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:background="@drawable/tab_music"/>
+
+        <RadioButton
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:background="@drawable/tab_friends"
+            android:checked="false" />
+    </RadioGroup>
+
+    <ImageView
+        android:layout_width="@dimen/toolbar_height"
+        android:layout_height="match_parent"
+        android:src="@drawable/actionbar_search"
+        android:scaleType="center"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:background="@drawable/background_actionbar_image_selector"/>
+
+</RelativeLayout>

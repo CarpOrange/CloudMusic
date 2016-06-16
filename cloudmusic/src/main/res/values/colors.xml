@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#CC0000</color>
+    <color name="black">#000000</color>
+
+    <color name="divider_color_day">#D6DAD9</color>
+    <color name="divider_color_night">#1D1E20</color>
+
+    <color name="item_bg_day">#EEF2F1</color>
+    <color name="text_color_day">#000000</color>
+    <color name="text_sub_color_day">#969696</color>
+
+    <color name="item_bg_night">#111214</color>
+    <color name="text_color_night">#727679</color>
+    <color name="text_sub_color_night">#727679</color>
+    <color name="bottom_bg_night">#222325</color>
+
+    <color name="half_transparent">#20000000</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolbar_height"
+    android:paddingTop="@dimen/toolbar_padding_top"
+    android:gravity="center_vertical"
+    android:background="?attr/toolbar_color">
+
+    <ImageView
+        android:id="@+id/actionbar_home"
+        android:layout_width="@dimen/toolbar_real_height"
+        android:layout_height="match_parent"
+        android:src="@drawable/actionbar_menu"
+        android:scaleType="center"
+        android:layout_gravity="start"
+        android:clickable="true"
+        android:background="@drawable/background_actionbar_image_selector"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_discover"
+            android:layout_width="@dimen/toolbar_real_height"
+            android:layout_height="match_parent"
+            android:background="@drawable/tab_discover"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/rb_music"
+            android:layout_width="@dimen/toolbar_real_height"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:background="@drawable/tab_music"/>
+
+        <RadioButton
+            android:id="@+id/rb_friends"
+            android:layout_width="@dimen/toolbar_real_height"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:background="@drawable/tab_friends"
+            android:checked="false" />
+    </RadioGroup>
+
+    <ImageView
+        android:layout_width="@dimen/toolbar_real_height"
+        android:layout_height="match_parent"
+        android:src="@drawable/actionbar_search"
+        android:scaleType="center"
+        android:layout_gravity="end"
+        android:clickable="true"
+        android:background="@drawable/background_actionbar_image_selector"/>
+
+</android.support.v7.widget.Toolbar>

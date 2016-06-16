@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="?attr/bottom_bg"
+    android:orientation="horizontal"
+    android:paddingBottom="4dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="4dp">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gintama" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="1"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="歌曲名"
+            android:textColor="?attr/text_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="演唱者"
+            android:textColor="?attr/text_sub_color"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_actionbar_image_selector"
+        android:scaleType="centerCrop"
+        android:src="@drawable/playbar_btn_playlist" />
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_actionbar_image_selector"
+        android:scaleType="centerCrop"
+        android:src="@drawable/playbar_btn_play" />
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_actionbar_image_selector"
+        android:scaleType="centerCrop"
+        android:src="@drawable/playbar_btn_next" />
+</LinearLayout>
